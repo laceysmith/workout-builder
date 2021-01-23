@@ -1,0 +1,157 @@
+* {
+    font-family: sans-serif;
+    color: #303C6C;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: #303C6C;
+}
+h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    color:  #B4DFE5;
+    margin-left: 1%;
+
+}
+header a {
+    padding: 3%;
+    color: #B4DFE5;
+    font-weight: normal;
+}
+.nav-link:hover {
+    border: 2px solid #B4DFE5;
+    padding: 1%;
+}
+#button {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background: url('Images/imagesitup.jpg');
+}
+button {
+    background-color: #B4DFE5;
+    border: 1px solid #303C6C;
+    border-radius: 30px;
+    color: #303C6C;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+}
+.workout-types {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.workout-types img{
+    object-fit: cover;
+    width: 30%;
+    box-shadow: 5px 5px #a3a1a186;
+    
+}
+.goals img{
+    width:100%;
+}
+h2{
+    font-size: 24px;
+    background-color: #B4DFE5;
+    padding: 3%;
+    text-align: center;
+    font-weight: normal;
+}
+h3{
+    font-style: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+li{
+    padding:.5%
+}
+.features {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-decoration: underline;
+}
+.features div{
+    border: 2px solid #B4DFE5;
+    padding: 2%;
+}
+.features img{
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* padding-left: 5px; */
+}
+
+.workoutweeks{
+    display: flex;
+}
+.workoutweeks div{
+    border-radius: 3%;
+    width: 300px;
+    font-weight: bold;
+}
+
+.week1 li {
+    background-color: #FBE8a6;
+}
+
+.week2 li{
+    background-color: #F4976C;
+}
+
+.week3 li{
+    background-color: #AFD275 ;
+}
+
+.bold-text li{
+    font-weight: bold;
+}
+/* HOW TO MAKE OPTIONS BOLD TEXTS */
+.by-you li{
+    list-style-type: none;   
+    align-items: baseline;
+}
+
+.by-you {
+    text-align: center;
+}
+
+
+
+.info-section{
+    border-style: ridge;
+    height: 400px;
+    background-color: #FBE8a6;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.info-section img {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
+    object-fit: cover;
+    object-position: top;
+}
+.info-section p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+footer {
+
+}
